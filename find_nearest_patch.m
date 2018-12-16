@@ -13,7 +13,7 @@ function nearest_patch = find_nearest_patch(image_data, target_patch, patch_mask
     % information
     target_region = Information.target_region;
     patch_size = Information.patch_size;
-    half_patch_size = floor(patch_size/4);
+    half_patch_size = floor(patch_size/1);
     % if the target patch is incompleted or it's size is smaller than
     % patch_size^2
     if numel(patch_mask) < patch_size^2
