@@ -56,3 +56,4 @@ function norm_matrix = normalize_matrix(matrix)
     max_value = max(matrix(:));
     norm_matrix = (matrix - min_value) / (max_value - min_value);
 end
+
